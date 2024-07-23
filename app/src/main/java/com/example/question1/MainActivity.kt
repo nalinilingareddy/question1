@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         spinnerOperations = findViewById(R.id.spinnerOperations)
         textViewResult = findViewById(R.id.textViewResult)
 
-        // Setup spinner with operations
+
         val operations = resources.getStringArray(R.array.operations)
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, operations)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)

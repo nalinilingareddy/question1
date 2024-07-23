@@ -6,11 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/light_gray">
 
-    <!-- EditText for Number 1 -->
-
-    <!-- EditText for Number 2 -->
-
-    <!-- Spinner for Operations -->
     <EditText
         android:id="@+id/editTextNumber1"
         android:layout_width="304dp"
